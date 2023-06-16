@@ -9,7 +9,7 @@ var filmes = [
       nome: 'Velozes & Furiosos 10 (2023)',
       urlPoster: 'https://image.tmdb.org/t/p/w342/nxrmpkwVdmiVAiRTqSSC2SateN2.jpg',
       sinopse: 'Ao longo de muitas missões e contra probabilidades impossíveis, Dom Toretto e sua família foram mais espertos, mais nervosos e superaram todos os inimigos em seu caminho. Agora, eles enfrentam o oponente mais letal que já enfrentaram: uma ameaça terrível emergindo das sombras do passado, alimentada por vingança de sangue e determinada a destruir esta família e destruir tudo - e todos - que Dom ama, para sempre.'
-    }
+    },
      {
       nome: 'Dá Tempo ao Tempo (2013)',
       urlPoster: 'https://images.justwatch.com/poster/190107318/s592/questao-de-tempo',
