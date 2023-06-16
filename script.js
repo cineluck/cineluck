@@ -10,6 +10,12 @@ var filmes = [
       urlPoster: 'https://image.tmdb.org/t/p/w342/nxrmpkwVdmiVAiRTqSSC2SateN2.jpg',
       sinopse: 'Ao longo de muitas missões e contra probabilidades impossíveis, Dom Toretto e sua família foram mais espertos, mais nervosos e superaram todos os inimigos em seu caminho. Agora, eles enfrentam o oponente mais letal que já enfrentaram: uma ameaça terrível emergindo das sombras do passado, alimentada por vingança de sangue e determinada a destruir esta família e destruir tudo - e todos - que Dom ama, para sempre.'
     }
+     {
+      nome: 'Dá Tempo ao Tempo (2013)',
+      urlPoster: 'https://images.justwatch.com/poster/190107318/s592/questao-de-tempo',
+      sinopse: 'Aos 21 anos, Tim Lake descobre que consegue viajar no tempo… Após mais uma insatisfatória festa de Ano Novo, o pai de Tim revela-lhe que os homens da sua família sempre tiveram a capacidade de viajar no tempo. Tim não pode mudar a história, mas consegue alterar o que acontece ou aconteceu na sua própria vida - então, decide tornar o seu mundo um lugar melhor… arranjando uma namorada. Infelizmente, esse feito tornou-se mais complicado do que previa. Ao mudar-se de Cornwall para Londres, para estudar advocacia, Tim finalmente conhece a belíssima, mas insegura, Mary. Apaixonam-se, mas um lamentável incidente nas viagens pelo tempo faz com que ele nunca a tenha conhecido. Assim, voltam a encontrar-se pela primeira vez, várias vezes, até que, finalmente, depois de muita astúcia a viajar no tempo, ele conquista o seu coração.'
+    }
+    
   ];
   
   function gerarFilmeAleatorio() {
