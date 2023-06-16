@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Cine Luck</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <h1>Cine Luck</h1>
-    <div id="poster"></div>
-    <div id="filme-info">
-      <h2 id="filme-nome"></h2>
-      <p id="filme-sinopse"></p>
+    <div id="poster">
+      <img src="" alt="Poster do filme">
     </div>
-    <button id="button">Gerar Filme Aleatório</button>
+    <div id="filme-info">
+      <h1 id="filme-nome"></h1>
+      <p id="filme-sinopse"></p>
+      <div class="button-container">
+        <button id="gerar">Gerar</button>
+        <button id="tweetar">Tweetar</button>
+      </div>
+    </div>
   </div>
 
   <script src="script.js"></script>
