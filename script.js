@@ -1,0 +1,37 @@
+// script.js
+var filmes = [
+    {
+      nome: 'Homem-Aranha: Através do Aranhaverso (2023)',
+      urlPoster: 'https://image.tmdb.org/t/p/w342/6a7NItazspSV8Fl7u46ccxwPKk4.jpg',
+      sinopse: 'Miles Morales retorna para o próximo capítulo da saga do Aranhaverso, uma aventura épica que transportará o Homem-Aranha em tempo integral e amigável do bairro do Brooklyn através do Multiverso para unir forças com Gwen Stacy e uma nova equipe de Homens-Aranha para enfrentar com um vilão mais poderoso do que qualquer coisa que eles já encontraram.'
+    },
+    {
+      nome: 'Velozes & Furiosos 10 (2023)',
+      urlPoster: 'https://image.tmdb.org/t/p/w342/nxrmpkwVdmiVAiRTqSSC2SateN2.jpg',
+      sinopse: 'Ao longo de muitas missões e contra probabilidades impossíveis, Dom Toretto e sua família foram mais espertos, mais nervosos e superaram todos os inimigos em seu caminho. Agora, eles enfrentam o oponente mais letal que já enfrentaram: uma ameaça terrível emergindo das sombras do passado, alimentada por vingança de sangue e determinada a destruir esta família e destruir tudo - e todos - que Dom ama, para sempre.'
+    }
+  ];
+  
+  function gerarFilmeAleatorio() {
+    var filmeAleatorio = filmes[Math.floor(Math.random() * filmes.length)];
+    var posterElement = document.getElementById('poster');
+    var filmeNomeElement = document.getElementById('filme-nome');
+    var filmeSinopseElement = document.getElementById('filme-sinopse');
+  
+    posterElement.classList.remove('animation');
+    filmeNomeElement.classList.remove('animation');
+    filmeSinopseElement.classList.remove('animation');
+  
+    setTimeout(function() {
+      posterElement.innerHTML = `<img src="${filmeAleatorio.urlPoster}" alt="${filmeAleatorio.nome}" width="100%">`;
+      filmeNomeElement.textContent = filmeAleatorio.nome;
+      filmeSinopseElement.textContent = filmeAleatorio.sinopse;
+  
+      posterElement.classList.add('animation');
+      filmeNomeElement.classList.add('animation');
+      filmeSinopseElement.classList.add('animation');
+    }, 300);
+  }
+  
+  document.getElementById('button').addEventListener('click', gerarFilmeAleatorio);
+  
