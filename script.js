@@ -18,9 +18,8 @@ var filmes = [
     {
       nome: 'Tokyo Revengers (2021)',
       urlPoster: 'https://images.justwatch.com/backdrop/302216269/s640',
-      sinopse: 'Takemichi Hanagaki é um freelancer que atingiu o abismo absoluto de desespero em sua vida. Ele descobre que a única namorada que já teve, no ensino médio, Hinata Tachibana, foi morta pela implacável gangue Tokyo Manji. Um dia depois de saber de sua morte,
-ele está parado na plataforma da estação e acaba sendo empurrado para os trilhos por uma manada de pessoas. Ele fecha os olhos pensando que está prestes a morrer, mas quando abre os olhos de volta, ele de alguma forma voltou no tempo 12 anos. Agora que voltou a viver os melhores dias da sua vida, Takemichi decide vingar-se da sua vida.'
-    },
+      sinopse: 'Takemichi Hanagaki é um freelancer que atingiu o abismo absoluto de desespero em sua vida. Ele descobre que a única namorada que já teve, no ensino médio, Hinata Tachibana, foi morta pela implacável gangue Tokyo Manji. Um dia depois de saber de sua morte, ele está parado na plataforma da estação e acaba sendo empurrado para os trilhos por uma manada de pessoas. Ele fecha os olhos pensando que está prestes a morrer, mas quando abre os olhos de volta, ele de alguma forma voltou no tempo 12 anos. Agora que voltou a viver os melhores dias da sua vida, Takemichi decide vingar-se da sua vida.'
+    }
     
   ];
   
